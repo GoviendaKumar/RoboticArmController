@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  
+  
+  
+   <ImageButton
+android:id="@+id/forward"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginLeft="25dp"
+android:layout_marginTop="55dp"
+android:contentDescription="Forward"
+android:layout_gravity="center"
+android:background="@drawable/forward"/>
+    <TextView
+              android:id="@+id/forwardtxt"
+              android:layout_width="80dp"
+              android:layout_height="50dp"
+             android:layout_below="@+id/forward"
+             android:layout_alignLeft="@+id/forward"
+              android:text="Forward" />
+   
+   <ImageButton
+android:id="@+id/backward"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginTop="40dp"
+android:layout_alignLeft="@+id/forward"
+android:layout_below="@+id/forward"
+android:contentDescription="Backward"
+android:layout_gravity="center"
+android:background="@drawable/backward"/>
+   
+     <View
+          android:id="@+id/separatorline"
+      android:layout_width="2dp" 
+      android:layout_height="fill_parent" 
+      android:layout_marginLeft="25dp"
+      android:background="#cccccc"
+      android:layout_toRightOf="@+id/forward"/>
+     
+     <ImageButton
+android:id="@+id/gripopen"
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:layout_marginTop="25dp"
+android:layout_marginLeft="25dp"
+android:layout_toRightOf="@+id/separatorline"
+android:layout_alignTop="@+id/forward"
+android:contentDescription="Open"
+android:layout_gravity="center"
+android:background="@drawable/open"/>
+      <TextView
+android:id="@+id/openjaws"
+android:layout_width="80dp"
+android:layout_height="50dp"
+android:layout_marginTop="5dp"
+android:layout_below="@+id/gripopen"
+android:layout_alignLeft="@+id/gripopen"
+android:text="Open jaws"/>
+     
+     <ImageButton
+android:id="@+id/gripclose"
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:layout_marginTop="40dp"
+android:layout_below="@+id/gripopen"
+android:layout_alignLeft="@+id/gripopen"
+android:contentDescription="Close"
+android:layout_gravity="center"
+android:background="@drawable/close"/>
+     
+     <TextView
+android:id="@+id/closejaws"
+android:layout_width="80dp"
+android:layout_height="50dp"
+android:layout_marginTop="2dp"
+android:layout_below="@+id/gripclose"
+android:layout_alignLeft="@+id/gripopen"
+android:text="Close jaws"/>
+     
+        <ImageButton
+android:id="@+id/up"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginLeft="150dp"
+android:layout_toRightOf="@+id/gripopen"
+android:layout_alignTop="@+id/forward"
+android:contentDescription="Up"
+android:layout_gravity="center"
+android:background="@drawable/up"/>
+        
+          <ImageButton
+android:id="@+id/down"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginTop="25dp"
+android:layout_alignLeft="@+id/up"
+android:layout_below="@+id/up"
+android:contentDescription="Down"
+android:layout_gravity="center"
+android:background="@drawable/down"/>
+          
+          <ImageButton
+android:id="@+id/right"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginTop="35dp"
+android:layout_alignTop="@+id/up"
+android:layout_toRightOf="@+id/up"
+android:contentDescription="Right"
+android:layout_gravity="center"
+android:background="@drawable/right"/>
+    					 
+          <ImageButton
+android:id="@+id/left"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginTop="35dp"
+android:layout_marginLeft="260dp"
+android:layout_alignTop="@+id/up"
+android:contentDescription="Left"
+android:layout_gravity="center"
+android:background="@drawable/left"/>
+
+          <TextView
+              android:id="@+id/backwordtxt"
+              android:layout_width="80dp"
+              android:layout_height="50dp"
+              android:layout_alignBottom="@+id/gripclose"
+              android:layout_alignRight="@+id/separatorline"
+              android:layout_alignLeft="@+id/forward"
+              android:text="Backward" />
+    				    
+</RelativeLayout>

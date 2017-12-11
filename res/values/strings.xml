@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Welcome">Welcome </string>
+    <string name="app_name">Robot Gripper Controller New</string>
+    <string name="StartVideo">Start Video</string>
+    <string name="ManualControl">Manual Control</string>
+    <string name="About">About</string>
+    <string name="Help">Help</string>
+    <string name="Exit">Exit</string>
+    <string name="ManualButtonClick"> ManualButtonClick</string>
+    <string name="StartVideoButtonClick">StartVideoButtonClick</string>
+    <string name="HelpMessage">Robot Gripper Controller is an application that assist rescue squads.
+  You can start the video by pressing &quot;Start Video&quot; button.  You can control robot
+          manually  by pressing &quot;Manual Control&quot; button.This moves you on new screen which
+           provide controls to control the gripper of the robot. When video is active then you can pop up the menu
+            to press the android device menu button. Menu allows you Start automatic mode, Connect to Arduino, 
+            and Connect to Laptop options .  When you choose &quot;Start Automatic Mode&quot; option, application will start to control gripper 
+            of robot automatically.When you select &quot;Connect to Arduinop&quot; option, application will connect to arduino device over Bluetooth or USB.
+             When you select &quot;Connect to Laptop&quot; option, application will connect to latop over Wi-Fi. </string>
+    <string name="HelpButtonClick">HelpButtonClick</string>
+    <string name="Strsettings">Settings</string>
+    <string name="SettingsButtonClick">SettingsButtonClick</string>
+
+</resources>

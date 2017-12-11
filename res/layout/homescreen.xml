@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <ImageButton
+android:id="@+id/camera"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:layout_marginTop="4mm"
+android:layout_marginLeft="5mm"
+android:contentDescription="Start Video"
+android:layout_gravity="center"
+android:background="@drawable/cameraicon"
+   android:onClick="StartVideoButtonClick" android:clickable="true"/>
+     
+   <TextView
+android:id="@+id/startvideotxt"
+android:layout_width="80dp"
+android:layout_height="20dp"
+android:layout_alignLeft="@+id/camera"
+android:layout_below="@+id/camera"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="4dp"
+android:text="Start Video"/> 					 
+   
+      <ImageButton
+android:id="@+id/mcontrol"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:layout_marginLeft="15dp"
+android:layout_alignTop="@+id/camera"
+android:layout_toRightOf="@+id/camera"
+android:contentDescription="Manualy Control"
+android:layout_gravity="center"
+android:background="@drawable/manualcontrol" android:clickable="true" android:onClick="ManualButtonClick"/>
+      <TextView
+android:id="@+id/manualcontroltxt"
+android:layout_width="50dp"
+android:layout_height="40dp"
+android:layout_alignLeft="@+id/mcontrol"
+android:layout_below="@+id/mcontrol"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="13dp"
+android:text="Manual Control"/> 
+      
+      <ImageView
+android:id="@+id/roboticon"
+android:layout_width="280dp"
+android:layout_height="280dp"
+android:layout_marginTop="40dp"
+android:layout_below="@+id/camera"
+android:layout_centerHorizontal="true"
+android:contentDescription="Robot"
+android:layout_gravity="center"
+android:background="@drawable/roboticon"/>
+      
+      
+     <ImageButton
+android:id="@+id/help"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:layout_marginLeft="15dp"
+android:layout_alignTop="@+id/camera"
+android:layout_toRightOf="@+id/mcontrol"
+android:contentDescription="Manualy Control"
+android:layout_gravity="center"
+android:background="@drawable/helpicon" android:clickable="true" android:onClick="HelpButtonClick"/>
+        <TextView
+android:id="@+id/helptxt"
+android:layout_width="50dp"
+android:layout_height="20dp"
+android:layout_alignLeft="@+id/help"
+android:layout_below="@+id/help"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="27dp"
+android:text="Help"/> 
+    
+</RelativeLayout>

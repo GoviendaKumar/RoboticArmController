@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:verticalScrollbarPosition="right" android:visibility="visible">
+
+    <Button
+        android:id="@+id/StartVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:alpha="1"
+        android:text="@string/StartVideo" android:onClick="@string/StartVideoButtonClick" android:clickable="true"/>
+
+    <Button
+        android:id="@+id/ManualButton"
+        android:layout_width="128dp"
+        android:layout_height="45dp"
+        android:text="@string/ManualControl" android:clickable="true" android:onClick="@string/ManualButtonClick"/>
+    
+    <Button
+        android:id="@+id/AboutButton"
+        android:layout_width="128dp"
+        android:layout_height="45dp"
+        android:text="@string/About" />
+       
+    <Button
+        android:id="@+id/HelpButton"
+        android:layout_width="128dp"
+        android:layout_height="45dp"
+        android:text="@string/Help" />
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="128dp"
+        android:layout_height="45dp"
+        android:text="@string/Exit" />
+</LinearLayout>

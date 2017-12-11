@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome" 
+        android:textSize="30dp"/>  -->   
+       <org.rescue.App.Picture
+             android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/Immage" />
+       
+     <!--  <org.opencv.android.JavaCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"  
+        android:id="@+id/JavaCameraView"
+        opencv:show_fps="true"
+        opencv:camera_id="any" />
+    
+    <org.opencv.android.NativeCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/NativeCameraView"
+        opencv:show_fps="true"
+        opencv:camera_id="any" />
+    -->
+   
+   
+    
+</LinearLayout>
